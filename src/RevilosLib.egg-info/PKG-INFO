@@ -21,11 +21,9 @@ License: Copyright (c) 2018 The Python Packaging Authority
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
         
-Project-URL: Homepage, https://TO-BE-ADDED.com
-Project-URL: Documentation, https://TO-BE-ADDED.com
-Project-URL: Repository, https://TO-BE-ADDED.com
-Project-URL: Issues, https://TO-BE-ADDED.com
-Project-URL: Changelog, https://TO-BE-ADDED.com
+Project-URL: Homepage, https://github.com/Revilo0509/RevilosLib
+Project-URL: Documentation, https://github.com/Revilo0509/RevilosLib/wiki
+Project-URL: Issues, https://github.com/Revilo0509/RevilosLib/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -33,3 +31,4 @@ Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: keyboard>=0.13.5
+Requires-Dist: time
