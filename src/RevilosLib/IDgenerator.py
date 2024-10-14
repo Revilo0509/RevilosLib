@@ -36,4 +36,15 @@ def RandomString(Length, Uppercase = True, Lowercase = True, Numbers = True, Sym
     
     return ''.join(random.choice(characterList) for _ in range(Length))
 
+def fastRandomString(Length):
+    """Removes Unnessery ifs and whatnot therefor its "Fast"
+
+    Args:
+        Length (Integer): Length of the random string
+
+    Returns:
+        String: returns a random string
+    """
+    return ''.join(random.choice("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()-_=+[{]}\\|;:'\",<.>/?") for _ in range(Length))
+
 # TODO: Add more random ID generator functions. Example: Card, Phone, Address.
