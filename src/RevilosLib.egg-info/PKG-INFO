@@ -32,3 +32,4 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: keyboard>=0.13.5
 Requires-Dist: time
+Requires-Dist: random
