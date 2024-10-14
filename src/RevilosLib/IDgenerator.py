@@ -1,6 +1,6 @@
 import random
 
-def RandomString(Length, Uppercase = True, Lowercase = True, Numbers = True, Symbols = True):
+def randomString(Length, Uppercase = True, Lowercase = True, Numbers = True, Symbols = True):
     """
 
     Args:
