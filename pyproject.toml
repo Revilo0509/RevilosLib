@@ -14,7 +14,7 @@ requires-python = ">=3.8"
 dependencies = [
   "keyboard >= 0.13.5",
   "time",
-  "numpy == 2.1.2"
+  "random"
 ]
 
 [project.urls]
