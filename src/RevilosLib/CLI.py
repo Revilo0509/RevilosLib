@@ -4,7 +4,7 @@ import time
 def cls():
     print("\033[H\033[J", end="")
 
-def UserInputMenu(menyItems, menyName="", wrapAround = False, returnInt = False, clearOnExit = True):
+def userInputMenu(menyItems, menyName="", wrapAround = False, returnInt = False, clearOnExit = True):
     """
 
     Args:
@@ -69,7 +69,7 @@ def UserInputMenu(menyItems, menyName="", wrapAround = False, returnInt = False,
                     print("  ", menyItems[i])
             time.sleep(0.1)
 
-def UserInput(questionMessage, inputType, minVal=None):
+def userInput(questionMessage, inputType, minVal=None):
     """
 
     Args:
