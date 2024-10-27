@@ -5,18 +5,6 @@ def cls():
     print("\033[H\033[J", end="")
 
 def userInputMenu(menyItems, menyName="", wrapAround = False, returnInt = False, clearOnExit = True):
-    """
-
-    Args:
-        menyOptions (List): A list containing all of the available option to choose in the menu.
-        menyName (str, optional): The name of the menu. Defaults to "".
-        wrapAround (bool, optional): Dictates if you can "wrap around" the menu. ex last item to first or vise versa. Defaults to False.
-        returnInt (bool, optional): Dictates if to return the index of the selected meny Items instead of string. Defaults to False.
-        clearOnExit (bool, optional): Clear the menu on exit. Defaults to True.
-
-    Returns:
-        String or Integer: Defaulty returns the string of selected item. Returns a Integer if returnInt is true.
-    """
 
     if type(menyItems) != list:
         raise TypeError("MenyOptions must be a list")
@@ -70,16 +58,6 @@ def userInputMenu(menyItems, menyName="", wrapAround = False, returnInt = False,
             time.sleep(0.1)
 
 def userInput(questionMessage, inputType, minVal=None):
-    """
-
-    Args:
-        questionMessage (String): The message that should be asked to the user.
-        inputType (String): A string that indicates what type of data that should be returned
-        minVal (Integer, optional): If inputType == Int you can set the minimun value that the user needs to input. Defaults to None.
-
-    Returns:
-        Depends on inputType: returns the users answer
-    """
 
     if type(questionMessage) != str:
         raise TypeError("questionMessage must be a string")
